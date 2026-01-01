@@ -1,23 +1,24 @@
 package section8_Introduction_to_Arrays;
+
 import java.util.Scanner;
 
-public class Example40 {
+public class Example42 {
     public static void main(String[] args) {
-        // Left shift by k positions
+        // Right shift by k positions
         int[] arr = {1, 2, 3, 4, 5};
         int n = arr.length;
         int k = 2;
 
-        k = k % n;  // handle k > n
+        k = k % n;   // handle k > n
 
         for (int i = 0; i < k; i++) {
-            int first = arr[0];
+            int last = arr[n - 1];
 
-            for (int j = 0; j < n - 1; j++) {
-                arr[j] = arr[j + 1];
+            for (int j = n - 1; j > 0; j--) {
+                arr[j] = arr[j - 1];
             }
 
-            arr[n - 1] = first;
+            arr[0] = last;
         }
 
         // print array
