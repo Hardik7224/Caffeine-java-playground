@@ -1,5 +1,8 @@
 package section7_Printing_and_String_class;
 import java.util.Arrays;
+// Anagram -> An anagram is when two strings contain the same characters with the same frequency,
+//            but the order of characters is different.
+
 public class Example20 {
     public static void main(String[] args) {
         // Check Anagram
