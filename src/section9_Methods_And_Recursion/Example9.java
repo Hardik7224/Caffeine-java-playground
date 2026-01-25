@@ -2,6 +2,7 @@ package section9_Methods_And_Recursion;
 import java.util.Scanner;
 
 public class Example9 {
+    // Fibonacci series using recursion
     static int fib(int n){
         if(n==0){
             return 0;

@@ -2,11 +2,13 @@ package section9_Methods_And_Recursion;
 import java.util.Scanner;
 
 public class Example10 {
+    // Print numbers from 1 to n using recursion
     static void print1toN(int n) {
         if (n == 0) return;
         print1toN(n - 1);
         System.out.print(n + " ");
     }
+    // Print numbers from n to 1 using recursion
     static void printNto1(int n) {
         if (n == 0) return;
         System.out.print(n + " ");

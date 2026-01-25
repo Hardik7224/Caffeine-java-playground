@@ -2,13 +2,14 @@ package section9_Methods_And_Recursion;
 import java.util.Scanner;
 
 public class Example8 {
+    // Natural numbers sum using recursion
     static int sum(int n){
         if(n==0){
             return 0;
         }
         return n + sum(n-1);
     }
-
+    // Factorial using recursion
     static int fact(int n){
         if(n==0 || n==1){
             return 1;
