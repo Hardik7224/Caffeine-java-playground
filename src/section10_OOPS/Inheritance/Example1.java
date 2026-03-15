@@ -1,4 +1,8 @@
 package section10_OOPS.Inheritance;
+/*
+Inheritance in Java is a mechanism by which one class acquires
+the properties and methods of another class, allowing code reuse and hierarchical relationships.
+*/
 
 class Rectangle {
     private int length;
