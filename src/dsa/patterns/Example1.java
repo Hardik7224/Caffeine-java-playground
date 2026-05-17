@@ -1,10 +1,12 @@
 package dsa.patterns;
 /*
-   Print the pattern:
+
+Rectangular Pattern:
    ****
    ****
    ****
    ****
+
 */
 public class Example1 {
     public static void main(String[] args) {
