@@ -1,7 +1,6 @@
 package dsa.arrays;
 
 public class BinarySearch {
-
     public static int binarySearch(int [] arr, int target){
         int LB=0;
         int UB=arr.length - 1;
@@ -25,7 +24,6 @@ public class BinarySearch {
         int [] arr = {2,5,7,11,14,18};
         int key = 11;
         int index = binarySearch(arr,key);
-
         if(index >=0){
             System.out.println("Target is found at index: " + index);
         }
