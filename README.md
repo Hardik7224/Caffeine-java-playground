@@ -1,4 +1,4 @@
-# ☕ Caffeine-Java-Playground
+# ☕ Caffeine-java-playground
 
 Welcome to my Java workspace—where ideas are compiled, bugs are debugged, and every program is a step toward becoming a better developer.
 
