@@ -7,7 +7,7 @@ of a bar and the width of each bar is 1 unit, compute the total amount of rainwa
 trapped between the bars after it rains.
  */
 
-public class TrappingRainWater {
+public class TrappingRainWater{
     public static int trappedWater(int[] arr){
         int res =0;
         for(int i=1;i<arr.length-1;i++){
@@ -24,7 +24,7 @@ public class TrappingRainWater {
         return res;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args){
         int [] arr =  {0,1,0,2,1,0,1,3,2,1,2,1};
         System.out.println(trappedWater(arr));
     }
